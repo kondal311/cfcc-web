@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clydesdale Farm Cricket Club</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-green-700 text-white">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <div class="flex items-center space-x-3">
+        <img src="assets/logo.png" alt="CFCC Logo" class="h-14 w-auto" />
+        <h1 class="text-2xl font-bold">Clydesdale Farm Cricket Club</h1>
+      </div>
+      <nav>
+        <ul class="flex space-x-6 text-lg">
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#news" class="hover:underline">News</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-72 flex items-center justify-center text-white" style="background-image: url('https://source.unsplash.com/1600x400/?cricket');">
+    <h2 class="text-4xl md:text-5xl font-bold bg-green-800 bg-opacity-70 p-4 rounded-lg">Welcome to CFCC</h2>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container mx-auto p-6">
+    <h3 class="text-3xl font-semibold text-green-700 mb-4">About Us</h3>
+    <p class="mb-4">
+      Established in 2018, Clydesdale Farm Cricket Club (CFCC) is based at Elara Oval, Marsden Park, NSW 2765.
+      We are passionate about cricket and community spirit, welcoming players of all ages and abilities.
+    </p>
+    <div class="flex flex-col md:flex-row items-center mt-6">
+      <img src="assets/president.jpg" alt="President Ravi Hemadri" class="h-48 w-48 rounded-full object-cover shadow-lg mb-4 md:mb-0 md:mr-6 border-4 border-green-600" />
+      <div>
+        <h4 class="text-2xl font-semibold">Club President: Ravi Hemadri</h4>
+        <p class="mt-2">Ravi is dedicated to building a thriving cricket community and guiding CFCC to success both on and off the field.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- News & Updates -->
+  <section id="news" class="bg-white py-6">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-semibold text-green-700 mb-4">News & Updates</h3>
+      <div id="news-list" class="space-y-4">
+        <!-- News items will be injected here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-200 py-6">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-semibold text-green-700 mb-4">Contact Us</h3>
+      <p>Email: <a href="mailto:cfcc@example.com" class="text-green-700 underline">cfcc@example.com</a></p>
+      <p>Ground: Elara Oval, Marsden Park, NSW 2765</p>
+      <p>PlayHQ: <a href="https://www.playhq.com/cricket-australia/org/clydesdale-farm-cricket-club/8c45de46/register" class="text-green-700 underline">Register Here</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white text-center py-4">
+    <p>&copy; 2025 Clydesdale Farm Cricket Club. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
